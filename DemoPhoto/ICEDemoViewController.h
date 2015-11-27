@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ICEDemoViewController.h
 //  DemoPhoto
 //
 //  Created by 陈冰 on 15/11/11.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface ICEDemoViewController : UIViewController
 
 @end
-

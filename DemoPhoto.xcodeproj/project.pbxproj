@@ -15,6 +15,19 @@
 		070B48721BF37394005A449C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070B48701BF37394005A449C /* LaunchScreen.storyboard */; };
 		070B487D1BF37394005A449C /* DemoPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B487C1BF37394005A449C /* DemoPhotoTests.m */; };
 		070B48881BF37394005A449C /* DemoPhotoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B48871BF37394005A449C /* DemoPhotoUITests.m */; };
+		070B48971BF3762B005A449C /* ICEPhotoActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 070B48961BF3762B005A449C /* ICEPhotoActionSheet.m */; };
+		073398131BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 073398121BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.m */; };
+		073398161BFCC66200DC2248 /* ICEToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 073398151BFCC66200DC2248 /* ICEToolBarView.m */; };
+		078B3CE81BF39D51005F271C /* ICEDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078B3CE71BF39D51005F271C /* ICEDemoViewController.m */; };
+		078B3CEB1BF3A10E005F271C /* ICEPhotoGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 078B3CEA1BF3A10E005F271C /* ICEPhotoGroupViewController.m */; };
+		07DEC36E1BF4C51A005511A2 /* ICEPhotoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DEC36D1BF4C51A005511A2 /* ICEPhotoCollectionViewController.m */; };
+		07DEC3711BF4CAE6005511A2 /* ICEAssetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07DEC3701BF4CAE6005511A2 /* ICEAssetManager.m */; };
+		6D1B891C1BFEF32A00088360 /* ICEZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D1B891B1BFEF32A00088360 /* ICEZoomScrollView.m */; };
+		6D216E1C1BFDA58600180B33 /* ICEPhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D216E1B1BFDA58600180B33 /* ICEPhotoBrowserViewController.m */; };
+		6D4A862F1C0316BC00A5819C /* ICEThumbnailCheckCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4A862E1C0316BC00A5819C /* ICEThumbnailCheckCell.m */; };
+		6D59C3011C02FB0500D6F818 /* ICEThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59C3001C02FB0500D6F818 /* ICEThumbnailView.m */; };
+		6D59C3051C02FB5D00D6F818 /* ICEThumbnailFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59C3041C02FB5D00D6F818 /* ICEThumbnailFlowLayout.m */; };
+		6D59C3081C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D59C3071C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,32 @@
 		070B48831BF37394005A449C /* DemoPhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		070B48871BF37394005A449C /* DemoPhotoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoPhotoUITests.m; sourceTree = "<group>"; };
 		070B48891BF37394005A449C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070B48951BF3762B005A449C /* ICEPhotoActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEPhotoActionSheet.h; sourceTree = "<group>"; };
+		070B48961BF3762B005A449C /* ICEPhotoActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEPhotoActionSheet.m; sourceTree = "<group>"; };
+		073398111BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEPhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		073398121BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEPhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		073398141BFCC66200DC2248 /* ICEToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEToolBarView.h; sourceTree = "<group>"; };
+		073398151BFCC66200DC2248 /* ICEToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEToolBarView.m; sourceTree = "<group>"; };
+		078B3CE61BF39D51005F271C /* ICEDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEDemoViewController.h; sourceTree = "<group>"; };
+		078B3CE71BF39D51005F271C /* ICEDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEDemoViewController.m; sourceTree = "<group>"; };
+		078B3CE91BF3A10E005F271C /* ICEPhotoGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEPhotoGroupViewController.h; sourceTree = "<group>"; };
+		078B3CEA1BF3A10E005F271C /* ICEPhotoGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEPhotoGroupViewController.m; sourceTree = "<group>"; };
+		07DEC36C1BF4C51A005511A2 /* ICEPhotoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEPhotoCollectionViewController.h; sourceTree = "<group>"; };
+		07DEC36D1BF4C51A005511A2 /* ICEPhotoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEPhotoCollectionViewController.m; sourceTree = "<group>"; };
+		07DEC36F1BF4CAE6005511A2 /* ICEAssetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEAssetManager.h; sourceTree = "<group>"; };
+		07DEC3701BF4CAE6005511A2 /* ICEAssetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEAssetManager.m; sourceTree = "<group>"; };
+		6D1B891A1BFEF32A00088360 /* ICEZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEZoomScrollView.h; sourceTree = "<group>"; };
+		6D1B891B1BFEF32A00088360 /* ICEZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEZoomScrollView.m; sourceTree = "<group>"; };
+		6D216E1A1BFDA58600180B33 /* ICEPhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEPhotoBrowserViewController.h; sourceTree = "<group>"; };
+		6D216E1B1BFDA58600180B33 /* ICEPhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEPhotoBrowserViewController.m; sourceTree = "<group>"; };
+		6D4A862D1C0316BC00A5819C /* ICEThumbnailCheckCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEThumbnailCheckCell.h; sourceTree = "<group>"; };
+		6D4A862E1C0316BC00A5819C /* ICEThumbnailCheckCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEThumbnailCheckCell.m; sourceTree = "<group>"; };
+		6D59C2FF1C02FB0500D6F818 /* ICEThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEThumbnailView.h; sourceTree = "<group>"; };
+		6D59C3001C02FB0500D6F818 /* ICEThumbnailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEThumbnailView.m; sourceTree = "<group>"; };
+		6D59C3031C02FB5D00D6F818 /* ICEThumbnailFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEThumbnailFlowLayout.h; sourceTree = "<group>"; };
+		6D59C3041C02FB5D00D6F818 /* ICEThumbnailFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEThumbnailFlowLayout.m; sourceTree = "<group>"; };
+		6D59C3061C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICEThumbnailCollectionViewCell.h; sourceTree = "<group>"; };
+		6D59C3071C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICEThumbnailCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +142,14 @@
 			children = (
 				070B48651BF37394005A449C /* AppDelegate.h */,
 				070B48661BF37394005A449C /* AppDelegate.m */,
+				078B3CE61BF39D51005F271C /* ICEDemoViewController.h */,
+				078B3CE71BF39D51005F271C /* ICEDemoViewController.m */,
+				07DEC36F1BF4CAE6005511A2 /* ICEAssetManager.h */,
+				07DEC3701BF4CAE6005511A2 /* ICEAssetManager.m */,
+				070B48951BF3762B005A449C /* ICEPhotoActionSheet.h */,
+				070B48961BF3762B005A449C /* ICEPhotoActionSheet.m */,
+				6D59C3021C02FB1D00D6F818 /* 缩略图 */,
+				6D59C2FE1C02F96300D6F818 /* 相册 */,
 				070B48681BF37394005A449C /* ViewController.h */,
 				070B48691BF37394005A449C /* ViewController.m */,
 				070B486B1BF37394005A449C /* Main.storyboard */,
@@ -138,6 +185,40 @@
 				070B48891BF37394005A449C /* Info.plist */,
 			);
 			path = DemoPhotoUITests;
+			sourceTree = "<group>";
+		};
+		6D59C2FE1C02F96300D6F818 /* 相册 */ = {
+			isa = PBXGroup;
+			children = (
+				078B3CE91BF3A10E005F271C /* ICEPhotoGroupViewController.h */,
+				078B3CEA1BF3A10E005F271C /* ICEPhotoGroupViewController.m */,
+				073398141BFCC66200DC2248 /* ICEToolBarView.h */,
+				073398151BFCC66200DC2248 /* ICEToolBarView.m */,
+				07DEC36C1BF4C51A005511A2 /* ICEPhotoCollectionViewController.h */,
+				07DEC36D1BF4C51A005511A2 /* ICEPhotoCollectionViewController.m */,
+				073398111BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.h */,
+				073398121BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.m */,
+				6D216E1A1BFDA58600180B33 /* ICEPhotoBrowserViewController.h */,
+				6D216E1B1BFDA58600180B33 /* ICEPhotoBrowserViewController.m */,
+				6D1B891A1BFEF32A00088360 /* ICEZoomScrollView.h */,
+				6D1B891B1BFEF32A00088360 /* ICEZoomScrollView.m */,
+			);
+			name = "相册";
+			sourceTree = "<group>";
+		};
+		6D59C3021C02FB1D00D6F818 /* 缩略图 */ = {
+			isa = PBXGroup;
+			children = (
+				6D59C2FF1C02FB0500D6F818 /* ICEThumbnailView.h */,
+				6D59C3001C02FB0500D6F818 /* ICEThumbnailView.m */,
+				6D59C3031C02FB5D00D6F818 /* ICEThumbnailFlowLayout.h */,
+				6D59C3041C02FB5D00D6F818 /* ICEThumbnailFlowLayout.m */,
+				6D59C3061C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.h */,
+				6D59C3071C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.m */,
+				6D4A862D1C0316BC00A5819C /* ICEThumbnailCheckCell.h */,
+				6D4A862E1C0316BC00A5819C /* ICEThumbnailCheckCell.m */,
+			);
+			name = "缩略图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +351,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				073398161BFCC66200DC2248 /* ICEToolBarView.m in Sources */,
+				073398131BFC9F8C00DC2248 /* ICEPhotoCollectionViewCell.m in Sources */,
+				07DEC3711BF4CAE6005511A2 /* ICEAssetManager.m in Sources */,
 				070B486A1BF37394005A449C /* ViewController.m in Sources */,
 				070B48671BF37394005A449C /* AppDelegate.m in Sources */,
+				6D4A862F1C0316BC00A5819C /* ICEThumbnailCheckCell.m in Sources */,
+				07DEC36E1BF4C51A005511A2 /* ICEPhotoCollectionViewController.m in Sources */,
+				6D1B891C1BFEF32A00088360 /* ICEZoomScrollView.m in Sources */,
+				070B48971BF3762B005A449C /* ICEPhotoActionSheet.m in Sources */,
+				6D59C3051C02FB5D00D6F818 /* ICEThumbnailFlowLayout.m in Sources */,
+				6D59C3081C02FD0F00D6F818 /* ICEThumbnailCollectionViewCell.m in Sources */,
+				6D59C3011C02FB0500D6F818 /* ICEThumbnailView.m in Sources */,
+				078B3CEB1BF3A10E005F271C /* ICEPhotoGroupViewController.m in Sources */,
+				6D216E1C1BFDA58600180B33 /* ICEPhotoBrowserViewController.m in Sources */,
 				070B48641BF37394005A449C /* main.m in Sources */,
+				078B3CE81BF39D51005F271C /* ICEDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCE.DemoPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DemoPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iCE.DemoPhoto;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +592,7 @@
 				070B488E1BF37394005A449C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		070B488F1BF37394005A449C /* Build configuration list for PBXNativeTarget "DemoPhotoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +601,7 @@
 				070B48911BF37394005A449C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		070B48921BF37394005A449C /* Build configuration list for PBXNativeTarget "DemoPhotoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +610,7 @@
 				070B48941BF37394005A449C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
